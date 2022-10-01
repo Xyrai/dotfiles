@@ -1,0 +1,41 @@
+{
+  "$schema" : "https:\/\/app.linearmouse.org\/schema\/0.7.3",
+  "schemes" : [
+    {
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.42,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "productName" : "USB Receiver",
+          "productID" : "0xc539",
+          "category" : "mouse",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "distance" : 3
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 0,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Karabiner DriverKit VirtualHIDPointing 1.6.0",
+          "serialNumber" : "pqrs.org:Karabiner-DriverKit-VirtualHIDPointing",
+          "productID" : "0x27da",
+          "category" : "mouse",
+          "vendorID" : "0x16c0"
+        }
+      },
+      "scrolling" : {
+        "distance" : 3
+      }
+    }
+  ]
+}
